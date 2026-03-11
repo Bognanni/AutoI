@@ -1,0 +1,13 @@
+# Impostazioni IDE
+.idea/
+
+# Ambienti virtuali
+.venv/
+
+# Cache di Python
+__pycache__/
+*.pyc
+
+# File specifici da ignorare
+AIMainByImage.py
+SistemaVisivoReborn1.json

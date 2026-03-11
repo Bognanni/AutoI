@@ -1,0 +1,77 @@
+{
+  "software_name":"gimp",
+  "software_version":"2.10.36",
+  "actions": [
+    {
+      "action_type": "OPEN_FILE",
+      "path_exe": "C:\\Users\\Bogna\\Desktop\\gimp-2.10.36-setup-1"
+    },
+    
+    {
+      "action_type": "CLICK",
+      "style": "IMAGE",
+      "mode": "SINGLE",
+      "path_image": "Images\\Install_amm_button.png"
+    },
+    
+    {
+      "action_type": "CLICK",
+      "style": "IMAGE",
+      "mode": "SINGLE",
+      "path_image": "Images\\scroll_symbol.png"
+    },
+
+    {
+      "action_type": "CLICK",
+      "style": "IMAGE",
+      "mode": "SINGLE",
+      "path_image": "Images\\italiano_button.png"
+    },
+
+    {
+      "action_type": "CLICK",
+      "style": "IMAGE",
+      "mode": "SINGLE",
+      "path_image": "Images\\ok_button.png"
+    },
+
+    {
+      "action_type": "CLICK",
+      "style": "IMAGE",
+      "mode": "SINGLE",
+      "path_image": "Images\\personalizza_button.png"
+    },
+
+    {
+      "action_type": "SCROLL",
+      "style": "IMAGE",
+      "mode": "TO_POINT",
+      "n_scrolls": -500,
+      "path_point_image": "Images\\end_conditions.png",
+      "path_start_image": "Images\\Preamble_start_scroll.png"
+    },
+
+    {
+      "action_type": "CLICK",
+      "style": "IMAGE",
+      "mode": "SINGLE",
+      "path_image": "Images\\avanti_button.png"
+    },
+
+    {
+      "action_type": "WRITE",
+      "style": "IMAGE",
+      "path_image": "Images\\cancel.png",
+      "type": "KEY",
+      "content": "BACKSPACE",
+      "n_times": 2
+    },
+
+    {
+      "action_type": "WRITE",
+      "style": "STATIC",
+      "type": "STRING",
+      "content": "1"
+    }
+  ]
+}

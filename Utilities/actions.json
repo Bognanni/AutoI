@@ -1,0 +1,30 @@
+{
+    "software_name": "gimp",
+    "software_version": "2.10.36",
+    "actions": [
+        {
+            "action_type": "OPEN_FILE",
+            "path_exe": "C:\\Users\\Bogna\\Desktop\\gimp-2.10.36-setup-1"
+        },
+        {
+            "action_type": "CLICK",
+            "style": "IMAGE",
+            "path_image": "Images\\screenshot_1725723989.4847767.png"
+        },
+        {
+            "action_type": "CLICK",
+            "style": "IMAGE",
+            "path_image": "Images\\screenshot_1725723991.1064057.png"
+        },
+        {
+            "action_type": "CLICK",
+            "style": "IMAGE",
+            "path_image": "Images\\screenshot_1725723992.4492044.png"
+        },
+        {
+            "action": "key_press",
+            "key": "Key.enter",
+            "time": 1725723994.4195602
+        }
+    ]
+}

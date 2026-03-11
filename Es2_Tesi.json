@@ -1,0 +1,61 @@
+{
+  "software_name":"gimp",
+  "software_version":"2.10.36",
+  "actions": [
+    {
+      "element": "NONE",
+      "action_type": "OPEN_FILE",
+      "path_exe": "C:\\Users\\Bogna\\Desktop\\gimp-2.10.36-setup-1"
+    },
+    
+    {
+      "element": "BUTTON",
+      "action_type": "CLICK",
+      "style": "NAME",
+      "name": "Installa per tutti gli utenti (suggerito)"
+    },
+    
+    {
+      "element": "COMBOBOX",
+      "action_type": "CLICK",
+      "style": "NAME",
+      "name": "Seleziona la lingua da usare durante l'installazione."
+    },
+
+    {
+      "element": "LISTITEM",
+      "action_type": "CLICK",
+      "style": "NAME",
+      "name": "Italiano"
+    },
+
+    {
+      "element": "BUTTON",
+      "action_type": "CLICK",
+      "style": "NAME",
+      "name": "OK"
+    },
+
+    {
+      "element": "BUTTON",
+      "action_type": "CLICK",
+      "style": "NAME",
+      "name": "Personalizza"
+    },
+
+    {
+      "element": "DOCUMENT",
+      "action_type": "SCROLL",
+      "style": "DOWN",
+      "n_scrolls": 15,
+      "window_name": "Installazione di GIMP"
+    },
+
+    {
+      "element": "BUTTON",
+      "action_type": "CLICK",
+      "style": "NAME",
+      "name": "Avanti"
+    }
+  ]
+}
