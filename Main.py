@@ -2,13 +2,14 @@ import time
 from AutoI.Actions import Click, OpenFile, Scroll
 import pyautogui
 
-#########################################################
-# ESEGUIRE PYCHARM DA AMMINISTRATORE PER FARLO FUNZIONARE
-#########################################################
+'''
+Eseguito su Pycharm con permessi da amministratore
+Main per esecuzione sequenziale di test
+'''
 
 
 # 1) avvio file
-OpenFile.open_file(r'C:\Users\Bogna\Desktop\gimp-2.10.36-setup-1')
+OpenFile.open_file(r'./cartellaEseguibile/eseguibile.exe')
 
 # 2) inizio setup
 time.sleep(2)
