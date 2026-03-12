@@ -4,7 +4,7 @@
   "actions": [
     {
       "action_type": "OPEN_FILE",
-      "path_exe": "C:\\Users\\Bogna\\Desktop\\gimp-2.10.36-setup-1"
+      "path_exe": "./cartellaEseguibile/eseguibile.exe"
     },
     
     {
