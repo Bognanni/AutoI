@@ -15,32 +15,32 @@ OpenFile.open_file(r'./cartellaEseguibile/eseguibile.exe')
 time.sleep(2)
 
 # 2.1) click installazione a tutti gli utenti
-Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\Install_amm_button.png')
+Click.search_button_by_image(r'.Images\Install_amm_button.png')
 
 # 2.2) click tendina e selezione lingua italiana
 time.sleep(2)
-Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\scroll_symbol.png')
+Click.search_button_by_image(r'.\Images\scroll_symbol.png')
 time.sleep(1)
-Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\italiano_button.png')
+Click.search_button_by_image(r'.\Images\italiano_button.png')
 
 # 2.3) click ok e installazione
 time.sleep(1)
-Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\ok_button.png')
+Click.search_button_by_image(r'.\Images\ok_button.png')
 
 time.sleep(2)
-Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\personalizza_button.png')
+Click.search_button_by_image(r'.\Images\personalizza_button.png')
 
 time.sleep(2)
-Scroll.scroll_to_point(-500, r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\end_conditions.png')
+Scroll.scroll_to_point(-500, r'.\Images\end_conditions.png')
 
 for i in range(4):
     time.sleep(1)
-    Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\Images\avanti_button.png')
+    Click.search_button_by_image(r'.\Images\avanti_button.png')
     pyautogui.moveRel(0, -50)
 
 # Ultimo comando per l'installazione di GIMP
 # time.sleep(1)
-# Click.search_button_by_image(r'C:\Users\Bogna\Desktop\File_uni\TRIENNALE\TERZO_ANNO\TESI\AutoI\installa_button.png')
+# Click.search_button_by_image(r'.\Images\installa_button.png')
 
 
 
